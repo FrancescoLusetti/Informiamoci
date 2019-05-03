@@ -13,12 +13,22 @@
 </head>
 <body>
 <div class="container">
-    <div>
-        <div id="title">Dope</div>
-        <div id="question">Swag</div>
+    <div class="my-5">
+        <h1 id="title" class="text-center mb-5">Dope</h1>
+        <p id="question">Swag</p>
+        <div class="btn-group btn-group-lg justify-content-center d-flex flex-row m-auto " role="group">
+            <button type="button" class="btn btn-primary" id="previous">Domanda precedente</button>
+            <button type="button" class="btn btn-primary" id="load">Ricarica domande</button>
+            <button type="button" class="btn btn-primary" id="next">Domanda successiva</button>
+        </div>
     </div>
-    <div>
-        <div id="countdown">2</div>
+    <div class="align-self-center container fixed-bottom mb-5">
+        <h1 id="time" class="text-center font-weight-bold">02:00</h1>
+        <div class="btn-group btn-group-lg justify-content-center d-flex flex-row m-auto" role="group">
+            <button type="button" class="btn btn-primary" id="start">Inizio</button>
+            <button type="button" class="btn btn-primary" id="stop">Stop</button>
+            <button type="button" class="btn btn-primary" id="reset">Reset</button>
+        </div>
     </div>
 </div>
 </body>

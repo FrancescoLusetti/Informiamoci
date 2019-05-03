@@ -1,3 +1,14 @@
 *{
-    font-family: 'Didact Gothic', 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#question{
+    height: 40vh !important;
+    font-size: 24px;
+}
+#time, #title{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#time{
+    font-size: 100px;
 }
